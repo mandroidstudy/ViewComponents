@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <com.mao.viewcomponents.button.round.RoundButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape1"
+        android:text="带圆角的按钮"
+        >
+    </com.mao.viewcomponents.button.round.RoundButton>
+
+    <com.mao.viewcomponents.button.image_button.IconButton
+        android:id="@+id/icon_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
